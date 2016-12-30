@@ -37,7 +37,7 @@ public class RegisterActivity extends AppCompatActivity
 			LoginBeen lgb=new LoginBeen();
 			lgb.setName("chuanshuo");
 			lgb.setAge(17);
-			lgb.setEmail("2414605975@qq.com");
+			lgb.setEmail("aixs241460@gmail.com");
 			lgb.setUsername(edt1.getText().toString());
 			lgb.setPassword(edt2.getText().toString());
 			lgb.signUp(RegisterActivity.this, new InsertListener(){
