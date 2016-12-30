@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/edt1"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"/>
+
+	<EditText
+		android:id="@+id/edt2"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"/>
+
+	<Button
+		android:id="@+id/btn1"
+		android:text="add_data"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn2"
+		android:text="query_data"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn3"
+		android:text="update_data"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/btn4"
+		android:text="delet_data"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+
+	<EditText
+		android:id="@+id/edt3"
+		android:hint="请输入帐号"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:inputType="number"/>
+
+	<EditText
+		android:id="@+id/edt4"
+		android:hint="请输入密码"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"/>
+
+	<Button
+		android:id="@+id/btn5"
+		android:text="登录"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/tv1"
+			android:layout_marginLeft="20dp"
+			android:text="注册"
+			android:textSize="20sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#65FFBE"/>
+
+		<TextView
+			android:layout_marginLeft="120dp"
+			android:textSize="20sp"
+			android:id="@+id/tv2"
+			android:text="修改密码"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#2DFBE8"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
