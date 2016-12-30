@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
 					startActivity(intent);
 				break;
 				case R.id.tv2:
-					String email="2414605975@qq.com";
+					String email="aixs241460@gmail.com";
 				BmobUser.resetPassword(MainActivity.this, email, new ResetPasswordListener(){
 
 						@Override
